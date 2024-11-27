@@ -1,0 +1,10 @@
+<?php
+
+define('APP_ROOT', __DIR__ . DIRECTORY_SEPARATOR);
+define('DATA_DIR', APP_ROOT . 'data' . DIRECTORY_SEPARATOR);
+define('VIEW_DIR', APP_ROOT . 'view' . DIRECTORY_SEPARATOR);
+define('SRC_DIR', APP_ROOT . 'src' . DIRECTORY_SEPARATOR);
+define('CONTROLLER_DIR', SRC_DIR . 'controller' . DIRECTORY_SEPARATOR);
+define('MODEL_DIR', SRC_DIR . 'model' . DIRECTORY_SEPARATOR);
+define('ROUTER_DIR', SRC_DIR . 'router' . DIRECTORY_SEPARATOR);
+define('TEMPLATE_DIR', VIEW_DIR . 'template' . DIRECTORY_SEPARATOR);
